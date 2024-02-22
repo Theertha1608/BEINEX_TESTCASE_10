@@ -1,0 +1,58 @@
+.client_video_session {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video_wrapper,
+.client_saying {
+    width: calc(50% - 20px); 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.video_wrapper video {
+    width: 100%; 
+    display: block;
+    margin: 0 auto; 
+}
+
+.client_saying {
+    margin-left: 40px;
+}
+
+.client_video_session {
+    display: flex;
+    align-items: center; 
+}
+
+.fa-quote-left {
+    font-size: 2em; 
+    margin-right: 10px; 
+}
+
+.client_saying {
+    flex: 1; 
+}
+
+h2 {
+    margin-top: 0; 
+}
+
+
+.client_saying h2 {
+    color: black;
+    text-align: left; 
+}
+
+.client_saying p {
+    color: black;
+    text-align: left; 
+}
+
+@media screen and (max-width: 768px) {
+    .video_wrapper,
+    .client_saying {
+        width: 100%; 
+        margin: 30px; 
+    }
+}

@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.header_logo img {
+    width: 100px; 
+    height: auto;
+}
+
+.header_nav {
+    display: flex; 
+}
+
+.header__nav-list {
+    display: flex; 
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.header__nav-item {
+    padding-right: 10px;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    margin-left: 10px; 
+}
+
+.header__nav-item:first-child {
+    margin-left: 10px; 
+}
