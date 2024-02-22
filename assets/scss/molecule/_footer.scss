@@ -1,0 +1,28 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer {
+    height: 200px; 
+    background-color: #010049; 
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

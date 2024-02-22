@@ -1,0 +1,49 @@
+
+* {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.content {
+    background-color: #170841;
+    height: 400px; 
+    width: 100%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 20px;
+}
+
+
+.content > div {
+    margin-right: 20px;
+}
+
+
+.content img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #ffffff; 
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #ffffff; 
+}
+
