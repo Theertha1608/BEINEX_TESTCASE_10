@@ -1,3 +1,4 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
 * body {
   height: 100%;
 }
@@ -125,6 +126,25 @@ h2 {
   font-size: 20px;
 }
 
+.input-container {
+  position: relative;
+  width: 300px;
+}
+
+.input-container input[type=text] {
+  width: calc(100% - 10px);
+  padding-left: 10px;
+  text-align: left;
+}
+
+.input-container i.fa-regular.fa-user {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #404be6;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -155,4 +175,4 @@ h2 {
 .icon {
   color: white;
   font-size: 20px;
-}
+}/*# sourceMappingURL=style.css.map */
